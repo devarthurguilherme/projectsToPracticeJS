@@ -1,7 +1,83 @@
+/*General*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*End of General*/
+/*My Defaults*/
+.display-flex {
+    display: flex;
+}
+/*End of the My Defalts*/
+body {
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    border-radius: .1rem;
+    box-shadow: 0 .2rem 1rem rgba(0, 0, 0, .2);
+    padding: 2rem;
+    width: 40rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.input-group {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+select, input {
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    background-color: #eee;
+}
+
+#btn-converter {
+    background-color: #4caf50;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 1.5rem;
+    padding: .8rem 2rem;
+    font-weight: bold;
+    opacity: .7;
+}
+
+#btn-converter:hover {
+    opacity: 1;
+}
+
+.output-group {
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#message {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-align: center;
+    color:#4caf50;
 }
