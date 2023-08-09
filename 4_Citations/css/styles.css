@@ -1,0 +1,36 @@
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*End of General*/
+/*Quote*/
+
+/*Text*/
+#quote {
+    width: 70%;
+    max-width: 100rem;
+    background-color: red;
+    font-size: 2rem;
+    text-align: center;
+}
+
+2:35
+/*End of Text*/
+/*End of Quote*/
+
